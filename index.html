@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AskBot</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AskBot</h1>
+      </header>
+
+      <div id="chat" class="chat" aria-live="polite"></div>
+
+      <form id="form" class="composer">
+        <input
+          id="input"
+          type="text"
+          placeholder="Ask something..."
+          autocomplete="off"
+        />
+        <button id="send" type="submit">Send</button>
+      </form>
+    </div>
+
+    <script type="module" src="./askbot.js"></script>
+  </body>
+</html>
