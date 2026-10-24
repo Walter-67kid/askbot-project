@@ -1,5 +1,3 @@
-export const OPEN_ROUTER_API_KEY =
-"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";
 let MODEL = ["openai/gpt-oss-20b:free", "nvidia/nemotron-3-ultra-550b-a55b:free", "google/gemma-4-31b-it:free"]
 
 
